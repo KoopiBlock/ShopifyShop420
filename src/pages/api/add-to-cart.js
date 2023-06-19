@@ -33,10 +33,10 @@ export default async function handler(_req, res) {
 
     const { cartId, variantId } =  _req.query
 
-     const cartNum = cartId.slice(18)
+     const cartNum = cartId.slice(19)
      const  realCartId  = `gid://shopify/Cart/${cartNum}`
 
-     const ProductNum = variantId.slice(28)
+     const ProductNum = variantId.slice(29)
      const  realProductId  = `gid://shopify/ProductVariant/${ProductNum}`
 
     console.log(cartId, variantId)
