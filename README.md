@@ -3,7 +3,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 git remote add origin https://github.com/KoopiBlock/ShopifyShop420.git
+
 git branch -M main
+
 git push -u origin main
 
 ## Learn More
